@@ -2,8 +2,6 @@
 
 EZeats is a full-stack web application where users can browse restaurant menus, manage their cart, and place orders with Paymob and Stripe payment integration.
 
-![EZeats App Screenshot](https://www.awesomescreenshot.com/image/54135700?key=5f96b18d95582f2f99c1be8bbd187faf)
-
 ---
 
 ## Features
@@ -11,28 +9,33 @@ EZeats is a full-stack web application where users can browse restaurant menus, 
 ### Frontend Features
 
 - **Authentication**
+
   - Sign In / Sign Up with email and password
   - JWT token persistence using HTTP-only cookies
   - Protected routes for authenticated users
 
 - **Menu Browsing**
+
   - Tab-based category browsing (Desserts, Boxes, etc.)
   - Filtering and animated item listings
   - Loading skeletons during data fetching
   - Item details with quantity selection and add-to-cart
 
 - **Cart Management**
+
   - Floating "View Cart" button
   - Update quantity, remove items
   - Live item count and cart total
   - cart page with editable items
 
 - **Checkout Process**
+
   - Payment via Paymob (card payment) and Stripe
   - Order summary with subtotal, delivery, total
   - Post-payment result page (success/failure)
 
 - **Client-Side Enhancements**
+
   - **Redux Toolkit** for client state management
   - **Tanstack Query** for efficient server state management
   - **Localization (i18next)** for multi-language support
@@ -51,15 +54,18 @@ EZeats is a full-stack web application where users can browse restaurant menus, 
 ### Backend Features
 
 - **Authentication**
+
   - Secure user login with JWT
   - HTTP-only cookies for sessions
 
 - **APIs**
+
   - Menu endpoints: list and filter menu items
   - Cart & order APIs
   - Checkout integration with Paymob and Stripe
 
 - **Security**
+
   - Centralized error handling
   - Environment variables validation at runtime
 
@@ -69,14 +75,15 @@ EZeats is a full-stack web application where users can browse restaurant menus, 
   - Modular code structure (NestJS best practices)
 
 > **Note**  
-> *Cart clearing should happen after successful payment. However, Paymob’s webhook is inaccessible during development (localhost)*
+> _Cart clearing should happen after successful payment. However, Paymob’s webhook is inaccessible during development (localhost)_
 
 ---
 
 ## Tech Stack
 
 ### Frontend
-- React.js 
+
+- React.js
 - TypeScript
 - Tailwind CSS
 - Redux Toolkit
@@ -86,6 +93,7 @@ EZeats is a full-stack web application where users can browse restaurant menus, 
 - ShadCN UI
 
 ### Backend
+
 - NestJS (noted as preferable)
 - MongoDB (Mongoose)
 - Stripe + Paymob integration
@@ -96,6 +104,7 @@ EZeats is a full-stack web application where users can browse restaurant menus, 
 ## Setup Instructions
 
 ### Prerequisites
+
 - Node.js v16+
 - MongoDB running locally or in the cloud
 
@@ -116,6 +125,7 @@ npm install
 cp .env.example .env
 npm run dev
 ```
+
 Available at [http://localhost:5173](http://localhost:5173)
 
 3. Setup Backend:
@@ -126,6 +136,7 @@ npm install
 cp .env.example .env
 npm run start:dev
 ```
+
 Available at [http://localhost:3000](http://localhost:3000)
 
 ---
@@ -133,6 +144,7 @@ Available at [http://localhost:3000](http://localhost:3000)
 ## Environment Variables
 
 ### Frontend `.env.example`
+
 ```env
 VITE_RECAPTCHA_KEY=6LeOss0pAAAAAMXYSjEpLiaJQ7Wjm_33nyPVF8yN
 VITE_BACKEND_URL=http://localhost:3000/api/v1
@@ -140,6 +152,7 @@ VITE_FRONTEND_URL=http://localhost:5173
 ```
 
 ### Backend `.env.example`
+
 ```env
 MONGODB_URI=mongodb://localhost:27017
 MONGODB_DATABASE=nestjs-ezeats
@@ -192,12 +205,14 @@ ezeats/
 ## Evaluation Criteria
 
 - **Frontend**
+
   - Clean, well-organized React components
   - Redux & Tanstack Query used properly
   - Fully responsive and animated
   - Good user experience (UX)
 
 - **Backend**
+
   - Secure Nest.js API
   - JWT Authentication
   - Stripe and Paymob integration
@@ -213,21 +228,27 @@ ezeats/
 ## Screenshots
 
 ### Sign In
+
 [View Screenshot](https://www.awesomescreenshot.com/image/54135686?key=e11873156545227208dbbd719ce44d0c)
 
 ### Sign Up
+
 [View Screenshot](https://www.awesomescreenshot.com/image/54135697?key=ea26ccf5d03ab32acb2f2380abdf7a12)
 
 ### Listing Page
+
 [View Screenshot](https://www.awesomescreenshot.com/image/54135700?key=5f96b18d95582f2f99c1be8bbd187faf)
 
 ### Listing Page (Floating Cart Button)
+
 [View Screenshot](https://www.awesomescreenshot.com/image/54135716?key=e9de511570dcb3988ab13d00018461d1)
 
 ### Item Details
+
 [View Screenshot](https://www.awesomescreenshot.com/image/54135703?key=bfd94cea238078596f3674583f028641)
 
 ### Checkout Page
+
 [View Screenshot](https://www.awesomescreenshot.com/image/54135711?key=d5851566f8dc7027388e06d1bec620e0)
 
 ---
