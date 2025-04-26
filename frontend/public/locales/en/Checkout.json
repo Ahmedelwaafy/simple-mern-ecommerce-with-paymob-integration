@@ -1,0 +1,25 @@
+{
+  "tab": {
+    "title": "Checkout | EZeats"
+  },
+  "title": "Cart & Checkout",
+  "items": "Items",
+  "cart_empty": "Your cart is empty",
+  "add_items": "Add Items",
+  "payment": "Payment",
+  "add_card": "Add Card",
+  "payment_method": "Payment Method",
+  "payment_summary": "Payment Summary",
+  "total_amount": "Total Amount",
+  "delivery_fee": "Delivery Fee",
+  "subtotal": "Subtotal",
+  "browse_items": "Browse Menu",
+  "toast": {
+    "quantity_must_be_greater_than_0": "Quantity must be greater than 0",
+    "max_quantity_reached": "Maximum quantity reached"
+  },
+  "payment_successful": "Your order #{{orderId}} has been confirmed. We've charged {{amount}} to your card.",
+  "payment_failed": "We couldn't process your payment. Please try again or use a different payment method",
+  "back_to_menu": "Back to Menu",
+  "try_again": "Try Again"
+}

@@ -1,0 +1,5 @@
+
+
+POST http://localhost:3000/api/v1/auth/refresh-token
+Content-Type: application/json
+cookie: refresh_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZGVhMzdjZmU1YmVhYjIyY2QyZjJlNyIsImlhdCI6MTc0MjY1NTgxNywiZXhwIjoxNzQyNzQyMjE3LCJhdWQiOiJsb2NhbGhvc3Q6MzAwMCIsImlzcyI6ImxvY2FsaG9zdDozMDAwIn0.f4tOkwKlbZZyMTjQYOjvzHIBQtjJQRq50w9JrMgok6U

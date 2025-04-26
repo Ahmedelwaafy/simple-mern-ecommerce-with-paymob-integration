@@ -1,0 +1,26 @@
+{
+  "tab": {
+    "title": "الدفع | EZeats"
+  },
+  "title": "سلة التسوق والدفع",
+  "items": "المواد",
+  "cart_empty": "سلة التسوق فارغة",
+  "add_items": "أضف المواد",
+  "payment": "الدفع",
+  "add_card": "أضف البطاقة",
+  "payment_method": "طريقة الدفع",
+  "payment_summary": "ملخص الدفع",
+  "total_amount": "المبلغ الكلي",
+  "delivery_fee": "رسوم التوصيل",
+  "subtotal": "المجموع الجزئي",
+  "browse_items": "تصفح القائمة",
+  "toast": {
+    "quantity_must_be_greater_than_0": "يجب أن تكون الكمية أكبر من 0",
+    "max_quantity_reached": "تم الوصول إلى الحد الأقصى للكمية"
+  },
+  "payment_successful": "لقد تم تأكيد طلبك #{{orderId}}. لقد قمنا بتحويل {{amount}} إلى بطاقتك.",
+  "payment_failed": "لم نستطع معالجة دفعك. يرجى المحاولة مرة أخرى أو استخدام طريقة دفع مختلفة",
+  "back_to_menu": "الرجوع إلى القائمة",
+  "try_again": "حاول مرة أخرى"
+}
+

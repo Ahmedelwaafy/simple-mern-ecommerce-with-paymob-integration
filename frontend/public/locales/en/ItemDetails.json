@@ -1,0 +1,16 @@
+{
+  "tab": {
+    "title": "{{itemName}} | EZeats"
+  },
+  "toast": {
+    "quantity_must_be_greater_than_0": "Quantity must be greater than 0",
+    "max_quantity_reached": "Maximum quantity reached"
+  },
+  "item_not_found": "Item not found",
+  "back_to_items": "Back to Menu",
+  "add_item": "Add Item",
+  "add_to_cart": "Add to Cart",
+  "quantity": "Quantity",
+  "remove_from_cart": "Remove from Cart",
+  "order_now": "Order now"
+}

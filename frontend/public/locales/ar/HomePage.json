@@ -1,0 +1,19 @@
+{
+  "tab": {
+    "title": "الصفحة الرئيسية | EZeats"
+  },
+
+  "title": "مرحبًا بكم في التطبيق.",
+  "subtitle": "مواضيعك المفضلة",
+  "no_items": "لم يتم العثور على أي عناصر في هذه الفئة!",
+  "no_boxes": "لا توجد صناديق!",
+  "input_placeholder": "أدخل موضوعك المفضل",
+  "input_cta": "أضف الموضوع",
+  "all_categories": "جميع الفئات",
+  "deserts": "الحلويات ({{count, number}})",
+  "boxes": "صناديق",
+  "FloatingCartButton": {
+    "view": "عرض السلة"
+  },
+  "tabs": { "deserts": "حلويات", "boxes": "صناديق" }
+}

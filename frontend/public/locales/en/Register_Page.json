@@ -1,0 +1,47 @@
+{
+  "tab": {
+    "title": "Register | EZeats",
+    "description": "Enter your details and create a new account | EZeats"
+  },
+  "heading": "Register",
+  "welcome_msg": "Enter your details and create a new account.",
+  "form": {
+    "name": {
+      "label": "Name",
+      "placeholder": "Please enter your Name"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Please enter your email"
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "Please enter your password"
+    },
+
+    "SubmitBtnComponent": { "value": "Register" }
+  },
+  "form__bottom": {
+    "have_an_account": "Already have an account?",
+    "Login": "Login"
+  },
+
+  "validations": {
+    "name": {
+      "required": "Name is required",
+      "minLength": "Name Min length is 3 char."
+    },
+
+    "email": {
+      "required": "Email is required.",
+      "pattern": "Invalid Email Address."
+    },
+    "password": {
+      "required": "Password is required.",
+      "minLength": "Password must be at least 8 characters long.",
+      "letter": "Password must contain at least one letter.",
+      "number": "Password must contain at least one number.",
+      "specialChar": "Password must contain at least one special character."
+    }
+  }
+}

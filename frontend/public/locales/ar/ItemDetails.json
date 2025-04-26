@@ -1,0 +1,17 @@
+{
+  "tab": {
+    "title": "{{itemName}} | EZeats"
+  },
+  "toast": {
+    "quantity_must_be_greater_than_0": "الكمية يجب ان تكون اكبر من 0",
+    "max_quantity_reached": "تم الوصول إلى الحد الأقصى للكمية"
+  },
+  "item_not_found": "العنصر غير موجود",
+  "back_to_items": "العودة إلى القائمة",
+  "add_item": "إضافة العنصر",
+  "add_to_cart": "أضف إلى السلة",
+  "quantity": "الكمية",
+  "remove_from_cart": "إزالة من السلة",
+  "order_now": "اطلب الآن"
+}
+

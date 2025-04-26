@@ -1,0 +1,17 @@
+{
+  "Navbar": { "title": "My Application", "Logout": "Logout" },
+  "Footer_text": "Copyright © {{year}} My Application. All rights reserved.",
+  "LogOutPopUp": {
+    "title": "Confirm Logout",
+    "subtitle": "Are you sure you want to logout ?",
+    "Confirm": "Confirm",
+    "Cancel": "Cancel"
+  },
+  "Language": "Language",
+  "English": "English",
+  "Arabic": "Arabic",
+  "Theme": "Theme",
+  "Light": "Light",
+  "Dark": "Dark",
+  "Log_out": "Log out"
+}

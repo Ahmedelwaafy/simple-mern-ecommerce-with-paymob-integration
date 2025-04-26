@@ -1,0 +1,33 @@
+{
+  "tab": {
+    "title": "Login | EZeats"
+  },
+  "LoginForm": {
+    "heading": "Welcome Back",
+    "welcome_msg": "Login for a contactless dinning experience",
+    "email": {
+      "label": "Email",
+      "placeholder": "Please enter your email"
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "Please enter your password"
+    },
+    "SubmitBtnComponent": { "value": "Login" },
+    "have_no_account": "Don't have an account?",
+    "register": "Create one"
+  },
+  "validations": {
+    "email": {
+      "required": "Email is required.",
+      "pattern": "Invalid Email Address."
+    },
+    "password": {
+      "required": "Password is required.",
+      "minLength": "Password must be at least 8 characters long.",
+      "letter": "Password must contain at least one letter.",
+      "number": "Password must contain at least one number.",
+      "specialChar": "Password must contain at least one special character."
+    }
+  }
+}

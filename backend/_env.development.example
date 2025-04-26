@@ -1,0 +1,23 @@
+MONGODB_URI=mongodb://localhost:27017
+MONGODB_DATABASE=nestjs-ezeats
+
+JWT_ADMIN_SECRET=fake_admin_secret
+JWT_USER_SECRET=fake_user_secret
+JWT_TOKEN_AUDIENCE=localhost:3000
+JWT_TOKEN_ISSUER=localhost:3000
+JWT_ACCESS_TOKEN_TTL=3600000
+JWT_REFRESH_TOKEN_TTL=8640000
+
+API_VERSION=v1
+
+# Paymob
+PAYMOB_WEBHOOK_SECRET_HMAC=fake-paymob-webhook-secret
+PAYMOB_API_KEY=fake-paymob-api-key
+PAYMOB_SECRET_KEY=fake-paymob-secret-key
+PAYMOB_PUBLIC_KEY=fake-paymob-public-key
+PAYMOB_BASE_URL=https://accept.paymob.com/v1
+PAYMOB_CARD_INTEGRATION_ID=fake-card-integration-id
+
+# Stripe
+STRIPE_SECRET_KEY=fake-stripe-secret-key
+STRIPE_WEBHOOK_SECRET=fake-stripe-webhook-secret

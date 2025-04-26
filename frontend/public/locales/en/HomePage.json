@@ -1,0 +1,19 @@
+{
+  "tab": {
+    "title": "Home | EZeats"
+  },
+
+  "title": "Welcome to the application.",
+  "subtitle": "Your Favorite Subjects",
+  "no_items": "No items found in this category!",
+  "no_boxes": "No Boxes!",
+  "input_placeholder": "Enter your favorite subject",
+  "input_cta": "Add Subject",
+  "all_categories": "All Categories",
+  "deserts": "Deserts ({{count, number}})",
+  "boxes": "Boxes",
+  "FloatingCartButton": {
+    "view": "View Cart"
+  },
+  "tabs": { "deserts": "Deserts", "boxes": "Boxes" }
+}
