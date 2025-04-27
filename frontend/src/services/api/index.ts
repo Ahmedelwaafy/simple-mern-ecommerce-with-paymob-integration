@@ -15,8 +15,7 @@ export const apiClient = async <TResponse = any, TBody = any>(
   dynamicEndpoint?: string
 ): Promise<ApiResponse<TResponse>> => {
   const { params, query, body, onSuccess, onError, signal } = options;
-  const { lang, token } = await getLanguageAndToken();
-  const userToken = token;
+  const { lang } = await getLanguageAndToken();
   const endpoint = endpoints[endpointName];
 
   if (!endpoint && !dynamicEndpoint)

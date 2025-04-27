@@ -1,3 +1,4 @@
+import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import {
   IsBoolean,
   IsEmail,
@@ -8,16 +9,13 @@ import {
   IsPhoneNumber,
   IsString,
   IsUrl,
-  Length,
-  Matches,
   Max,
   MaxLength,
   Min,
-  MinLength,
+  MinLength
 } from 'class-validator';
-import { Gender } from '../enums/gender.enum';
 import { Role } from '../../auth/enums/role.enum';
-import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
+import { Gender } from '../enums/gender.enum';
 
 export class CreateUserDto {
   @ApiProperty({
@@ -55,7 +53,7 @@ export class CreateUserDto {
   @MinLength(6, {
     message: 'Password must be at least 6 characters long.',
   })
-  @MaxLength(20, {
+  @MaxLength(60, {
     message: 'Password must be at most 20 characters long.',
   })
   password: string;

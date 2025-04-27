@@ -8,6 +8,7 @@ import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { routes } from "@/Constants/Routes";
 import { usePostData } from "@/Hooks/useFetch";
+import FormatCurrency from "@/lib/format-currency";
 import {
   DELETE_ITEM_FROM_CART,
   GET_CART,
@@ -21,7 +22,6 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
-import { formatCurrency } from "../../../../next/lib/utils";
 
 type UpdateCartBody = { productId: string; quantity: number };
 
@@ -144,18 +144,18 @@ export function Component() {
                   <div className="flex justify-between">
                     <span> {t("subtotal")}</span>
                     <span>
-                      {formatCurrency(
+                      {FormatCurrency(
                         cart.totalPriceAfterDiscount || cart.totalPrice
                       )}
                     </span>
                   </div>
                   <div className="flex justify-between">
                     <span> {t("delivery_fee")}</span>
-                    <span>{formatCurrency(cart.shippingCost)}</span>
+                    <span>{FormatCurrency(cart.shippingCost)}</span>
                   </div>
                   <div className="flex justify-between font-semibold text-base pt-2 border-t">
                     <span> {t("total_amount")}</span>
-                    <span>{formatCurrency(cart.finalTotal)}</span>
+                    <span>{FormatCurrency(cart.finalTotal)}</span>
                   </div>
                 </div>
               </motion.div>

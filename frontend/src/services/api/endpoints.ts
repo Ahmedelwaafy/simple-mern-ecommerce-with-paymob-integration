@@ -1,6 +1,5 @@
 import { EndpointConfig } from "@/types";
 import {
-  ADD_SUBJECT,
   GET_PROFILE,
   GET_ITEMS_LIST,
   SIGNIN,
