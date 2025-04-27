@@ -3,6 +3,11 @@
 EZeats is a full-stack web application where users can browse restaurant menus, manage their cart, and place orders with Paymob and Stripe payment integration.
 
 ---
+### Checkout Process
+
+The complete checkout process is recorded and can be viewed at:
+
+[Click here](https://www.awesomescreenshot.com/video/39189326?key=953a8842a4e4f5505d9d85adaa9dfd3d)
 
 ## Features
 
@@ -250,6 +255,10 @@ ezeats/
 ### Checkout Page
 
 [View Screenshot](https://www.awesomescreenshot.com/image/54135711?key=d5851566f8dc7027388e06d1bec620e0)
+
+### Payment Success
+
+[View Screenshot](https://www.awesomescreenshot.com/image/54137144?key=43ae526f7db96784f247859d4c3fe6ee)
 
 ---
 
